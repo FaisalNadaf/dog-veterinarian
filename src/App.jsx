@@ -3,16 +3,16 @@ import Navbar from "./component/Navbar.jsx";
 import Hero from "./component/Hero.jsx";
 import Hero2 from "./component/Hero2.jsx";
 import Hero3 from "./component/Hero3.jsx";
+import Hero4 from "./component/Hero4.jsx";
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <Hero2 />
-      <Hero3 />
-
-
+      <Hero2/>
+      <Hero3/>
+      <Hero4/>
     </>
   );
 };
