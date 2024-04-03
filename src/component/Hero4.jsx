@@ -1,6 +1,6 @@
 import React from "react";
 
-const Hero2 = () => {
+const Hero4 = () => {
   return (
     <div className="h-screen  bg-white flex items-center justify-center">
       <div className=" flex justify-evenly	 w-full">
@@ -36,4 +36,4 @@ const Hero2 = () => {
   );
 };
 
-export default Hero2;
+export default Hero4;

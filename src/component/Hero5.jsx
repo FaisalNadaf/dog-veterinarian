@@ -1,39 +1,87 @@
 import React from "react";
 
-const Hero2 = () => {
+const Hero5 = () => {
   return (
-    <div className="h-screen  bg-white flex items-center justify-center">
-      <div className=" flex justify-evenly	 w-full">
-        <div className="h-96 w-96 overflow-hidden">
-          <div className="h-full w-full  bg-[#FFC400] ">
-            <video
-              className="h-full object-cover z-10 opacity-60"
-              autoPlay
-              loop
-              muted
-              src="src/assets/videos/dog2.mp4"
-            ></video>
+    <div className="h-screen  bg-[#FFC400] flex  justify-center flex-wrap">
+      <div className="w-1/2 h-1/4  my-8 ">
+        <p className="mb-8 text-center text-6xl font-bold text-black 	text-white">
+          Buy
+        </p>
+        <p className="	text-2xl text-white mb-8 text-center">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, ad rerum
+          quo labore
+        </p>
+      </div>
+      <div className="w-full h-4/6  flex justify-evenly items-center">
+        <div className="w-1/5 h-full  ">
+          <img
+            src="src/assets/images/dog4.jpg"
+            alt=""
+            className="h-1/2  w-full object-cover mb-10 rounded-lg"
+          />
+          <div className="">
+            <div className="text-center ">
+              <span className="text-center mx-2 text-3xl font-bold text-white line-through	decoration-4">
+                &nbsp;$50&nbsp;
+              </span>
+              <span className="text-center mx-2 text-3xl font-bold text-white">
+                $30
+              </span>
+            </div>
+            <div className="flex items-center justify-center my-6">
+              <button className="rounded-full btn btn-outline hover:bg-[#EAAE00] bg-[#00BFCB] border-white text-black  px-8 ">
+                Our Services
+              </button>
+            </div>
           </div>
         </div>
-
-        <div className="h-96 w-1/2   ">
-          <p className="mb-8">
-            <h1 className="text-6xl font-bold text-black text-right">
-              As a veterinarian and lover of animal
-            </h1>
-          </p>
-          <p className="	text-3xl text-black mb-8 text-right">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, ad
-            rerum quo labore, aspernatur minima nihil eligendi debitis provident
-            culpa dolore.
-          </p>
-          <button className="btn btn-outline bg-[#EAAE00] hover:bg-[#00BFCB] border-white text-black mx-4 px-8 relative	left-3/4	 ">
-            Our Services
-          </button>
+        <div className="w-1/5 h-full  ">
+          <img
+            src="src/assets/images/dog5.jpg"
+            alt=""
+            className="h-1/2  w-full object-cover mb-10  rounded-lg"
+          />
+          <div className="">
+            <div className="text-center ">
+              <span className="text-center mx-2 text-3xl font-bold text-white line-through	decoration-4">
+                &nbsp;$130&nbsp;
+              </span>
+              <span className="text-center mx-2 text-3xl font-bold text-white">
+                $85
+              </span>
+            </div>
+            <div className="flex items-center justify-center my-6">
+              <button className="rounded-full btn btn-outline hover:bg-[#EAAE00] bg-[#00BFCB] border-white text-black  px-8 ">
+                Our Services
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-1/5 h-full  ">
+          <img
+            src="src/assets/images/dog6.jpg"
+            alt=""
+            className="h-1/2  w-full object-cover mb-10  rounded-lg"
+          />
+          <div className="">
+            <div className="text-center ">
+              <span className="text-center mx-2 text-3xl font-bold text-white line-through	decoration-4">
+                &nbsp;$80&nbsp;
+              </span>
+              <span className="text-center mx-2 text-3xl font-bold text-white">
+                $45
+              </span>
+            </div>
+            <div className="flex items-center justify-center my-6">
+              <button className="rounded-full btn btn-outline hover:bg-[#EAAE00] bg-[#00BFCB] border-white text-black  px-8 ">
+                Our Services
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Hero2;
+export default Hero5;
