@@ -5,6 +5,7 @@ import Hero2 from "./component/Hero2.jsx";
 import Hero3 from "./component/Hero3.jsx";
 import Hero4 from "./component/Hero4.jsx";
 import Hero5 from "./component/Hero5.jsx";
+import Hero6 from "./component/Hero6.jsx";
 
 
 const App = () => {
@@ -12,10 +13,11 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
-      <Hero2/>
-      <Hero3/>
-      <Hero4/>
-      <Hero5/>
+      <Hero2 />
+      <Hero3 />
+      <Hero4 />
+      <Hero5 />
+      <Hero6 />
     </>
   );
 };
