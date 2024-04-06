@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero8 = () => {
   return (
-    <div className="h-screen  bg-white flex  justify-center flex-wrap">
+    <div className="h-screen  bg-white flex  justify-center flex-wrap pb-16">
       <div className="w-1/2 h-1/4  my-8 	  ">
         <p className="mb-8 text-center text-6xl font-bold text-black 	text-black">
           Recent Posts
@@ -13,7 +13,7 @@ const Hero8 = () => {
         </p>
       </div>
       <div className="w-full h-4/6  flex justify-evenly ">
-        <div className="w-1/6 h-full shadow	h-[90%]	rounded-lg shadow-black ">
+        <div className="w-1/6 h-full shadow	h-5/6 rounded-lg shadow-black ">
           <img
             src="src/assets/images/doctor1.jpg"
             alt=""
@@ -27,10 +27,10 @@ const Hero8 = () => {
             <p className="text-black">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             </p>
-            <p className="text-[#84C7FF] font-black mt-4">Read More+</p>
+            <p className="text-[#84C7FF] font-black mt-1">Read More+</p>
           </div>
         </div>
-        <div className="w-1/6 h-full shadow	h-[90%]	rounded-lg shadow-black ">
+        <div className="w-1/6 h-full shadow	h-5/6 rounded-lg shadow-black ">
           <img
             src="src/assets/images/doctor2.jpg"
             alt=""
@@ -44,10 +44,10 @@ const Hero8 = () => {
             <p className="text-black">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             </p>
-            <p className="text-[#84C7FF] font-black mt-4">Read More+</p>
+            <p className="text-[#84C7FF] font-black mt-1">Read More+</p>
           </div>
         </div>
-        <div className="w-1/6 h-full shadow	h-[90%]	rounded-lg shadow-black ">
+        <div className="w-1/6 h-full shadow	h-5/6 rounded-lg shadow-black ">
           <img
             src="src/assets/images/doctor3.jpg"
             alt=""
@@ -61,7 +61,7 @@ const Hero8 = () => {
             <p className="text-black">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             </p>
-            <p className="text-[#84C7FF] font-black mt-4">Read More+</p>
+            <p className="text-[#84C7FF] font-black mt-1">Read More+</p>
           </div>
         </div>
       </div>
