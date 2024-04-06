@@ -8,6 +8,7 @@ import Hero5 from "./component/Hero5.jsx";
 import Hero6 from "./component/Hero6.jsx";
 import Hero7 from "./component/Hero7.jsx";
 import Hero8 from "./component/Hero8.jsx";
+import Footer from "./component/Footer.jsx";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Hero6 />
       <Hero7 />
       <Hero8 />
+      <Footer />
     </>
   );
 };
